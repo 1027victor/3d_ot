@@ -1,14 +1,7 @@
-.. dbj documentation master file, created by
-   sphinx-quickstart on Fri Mar 14 11:27:23 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Contents
 =================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+
 
 
 .. toctree::
@@ -16,4 +9,9 @@ documentation for details.
    :caption: Contents:
 
    Installation
-   notebooks/benchmark
+   Single_modal_spatial_domain_identification/index
+   Multi_Modal_spatial_domain_identification/index
+   Single_modal_alignment/index
+   Mouse_brain_p22_alignment/index
+   3Dreconstruction
+   cross_platform

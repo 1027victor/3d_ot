@@ -1,0 +1,13 @@
+/* 修改 Markdown 代码块标题样式 */
+h1, h2, h3 {
+    font-weight: bolder;
+}
+
+/* 标红字体并使用等宽字体 */
+code,.pre {
+    color: red;
+    font-family: monospace;
+    background-color: #f6f8fa;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
