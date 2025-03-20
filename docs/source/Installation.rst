@@ -7,7 +7,7 @@ System Requirements
 Hardware requirements
 ~~~~~~~~~~~~~~~~~~~~~
 
-``scAGDE`` package requires only a standard computer with enough RAM to support the in-memory operations.
+``lib_3d_OT`` package requires only a standard computer with enough RAM to support the in-memory operations.
 
 Software requirements
 ~~~~~~~~~~~~~~~~~~~~~
@@ -17,46 +17,30 @@ OS Requirements
 
 This package is supported for *Linux*. The package has been tested on the following systems:
 
-- Linux: Ubuntu 18.04
+- Linux: Ubuntu 22.04
 
 Python Dependencies
 ^^^^^^^^^^^^^^^^^^^
 
-``scAGDE`` mainly depends on the Python scientific stack.
+``lib_3d_OT`` mainly depends on the Python(>=3.10.13) scientific stack.
 
-.. code-block:: text
-
-   numpy
-   scipy
-   torch
-   scikit-learn
-   pandas
-   scanpy
-   anndata
-   rpy2
-
-For specific setting, please see `requirements.text <requirements.text>`_.
+For specific setting, please see `requirements.txt <https://github.com/dbjzs/3d-OT/blob/main/requirements.txt>`_.
 
 R Dependencies
 ^^^^^^^^^^^^^^
 
-We need your environment to have R and ``mclust`` package installed.
+We need your environment to have R(>=4.3.1) and ``mclust(6.1.1)`` package installed.
 
 Installation Guide
 ------------------
 
-You can create an environment to run scAGDE without any problems by following the code below:
+You can create an environment to run lib_3d_OT without any problems by following the code below:
 
 .. code-block:: bash
 
-   conda create -n scagde python=3.9.13 -y
-   conda activate scagde
-   pip install torch==2.0.1
-   pip install numpy==1.26.4
-   pip install rpy2==3.5.16
-   pip install scanpy==1.9.3
-   pip install matplotlib==3.5.0
-   pip install leidenalg==0.10.2
-   conda install r-base==4.3.1 -y
-   conda install r-mclust -y
-   pip install scAGDE
+   git clone https://github.com/dbjzs/3d-OT.git
+   cd 3d-OT
+   conda create -n 3d-OT -f environment.yaml
+   conda activate 3d-OT
+   pip install -r requirements.txt
+   pip install git+https://github.com/dbjzs/3d-OT.git
