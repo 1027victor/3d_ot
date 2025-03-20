@@ -29,7 +29,8 @@ extensions = [
 
 # 确保 Sphinx 忽略 .ipynb 生成的输出缓存
 nbsphinx_allow_errors = True  # 允许 Notebook 代码执行时出错（可选）
-exclude_patterns = ['build', '**.ipynb_checkpoints']  # 忽略 Jupyter Notebook 的缓存文件
+# exclude_patterns = ['build', '**.ipynb_checkpoints']  # 忽略 Jupyter Notebook 的缓存文件
+exclude_patterns = ['**.ipynb_checkpoints']
 nbsphinx_execute = 'never'
 
 
