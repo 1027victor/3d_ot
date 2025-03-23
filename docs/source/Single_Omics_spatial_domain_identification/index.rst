@@ -1,4 +1,4 @@
-Single Modal Spatial Domain Identification
+Single Omics  Spatial Domain Identification
 ===========================================================
 
 

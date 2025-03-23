@@ -1,4 +1,4 @@
-Multi Modal spatial domain identification
+Single Omics alignment
 ===========================================================
 
 
@@ -6,7 +6,7 @@ Multi Modal spatial domain identification
 .. toctree::
    :maxdepth: 2
 
-   simulated
-   humannodeA1
-   mousebrain.ipynb
-  
+
+   8months_mouse_brain_align
+   DLPFCalign
+   E15.5_align
