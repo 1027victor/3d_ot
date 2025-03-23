@@ -1,5 +1,5 @@
 Welcome to 3d_OT's documentation!
-=================
+==================================
 
 
 
@@ -9,9 +9,9 @@ Welcome to 3d_OT's documentation!
    :caption: Contents:
 
    Installation
-   Single_modal_spatial_domain_identification/index
-   Multi_Modal_spatial_domain_identification/index
-   Single_modal_alignment/index
+   Single_Omics_spatial_domain_identification/index
+   Multi_Omics_spatial_domain_identification/index
+   Single_Omics_alignment/index
    Mouse_brain_p22_alignment/index
    3Dreconstruction
    cross_platform
