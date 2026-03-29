@@ -31,16 +31,45 @@ R Dependencies
 
 We need your environment to have R(>=4.3.1) and ``mclust(6.1.1)`` package installed.
 
-Installation Guide
-------------------
+Installation via Github
+=======================
 
-You can create an environment to run lib_3d_OT without any problems by following the code below:
+Download
+--------
 
 .. code-block:: bash
 
    git clone https://github.com/dbjzs/3d-OT.git
    cd 3d-OT
+
+Environment
+-----------
+
+3d-OT is available for Python 3.10. We recommend training 3d-OT models on a device with GPU support.
+
+Using the conda install environment:
+
+.. code-block:: bash
+
    conda create -n 3d-OT -c conda-forge python==3.10.13 libopenblas=0.3.25 r-base=4.3.1 r-mclust -y
    conda activate 3d-OT
+
+Package
+-------
+
+Then install 3d-OT using pip:
+
+.. code-block:: bash
+
    pip install -r requirements.txt
    pip install .
+
+Jupyter Tutorial
+================
+
+.. code-block:: bash
+
+   pip install ipykernel
+   python -m ipykernel install --user --name=3d-OT --display-name="Python (3d-OT)"
+
+Please use the kernel name as follows: ``Python [conda env:3d-OT]``
