@@ -40,7 +40,7 @@ You can create an environment to run lib_3d_OT without any problems by following
 
    git clone https://github.com/dbjzs/3d-OT.git
    cd 3d-OT
-   conda create -n 3d-OT -f environment.yaml
+   conda create -n 3d-OT -c conda-forge python==3.10.13 libopenblas=0.3.25 r-base=4.3.1 r-mclust -y
    conda activate 3d-OT
    pip install -r requirements.txt
-   pip install git+https://github.com/dbjzs/3d-OT.git
+   pip install .
